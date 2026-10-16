@@ -16,10 +16,17 @@ if xb>=x1 and xb<=x2 and yb>=y1 and yb<=y2:
 else:
     print("Bez kolize")
 
+# test kolize
+if xb > x1 and xb < x2 and yb > y1 and yb < y2:
+    print("jsi v zone")
+elif xb >= x1 and xb <= x2 and yb >= y1 and yb <= y2:
+    print("Jsi na kraji zony")
+else: print ("Nejsi v zone")
 
-if xb<x1 or xb>x2 or yb<y1 or yb>y2:
-    print("Bez kolize")
-else:
-    print("kolize bodu s obdelníkem")
 
+#dalsi varianta
 
+#if xb<x1 or xb>x2 or yb<y1 or yb>y2:
+ #   print("Bez kolize")
+#else:
+ #   print("kolize bodu s obdelníkem")
